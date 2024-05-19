@@ -4,6 +4,7 @@ from typing import List
 class Article(BaseModel):
     title: str
     content: str
+    createdAt: str
 
 class RelatedArticles(BaseModel):
     main_title: str
